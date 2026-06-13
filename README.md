@@ -67,7 +67,4 @@ jupyter notebook breast_predict.ipynb
 ```
 ---
 
-### 💡 Un dernier conseil pour ton profil
-Dans ton code, tu fais appel à un module personnalisé (`from utils import SurvivalModelWrapper, km_by_group`). Assure-toi de bien pousser ce fichier `utils.py` sur ton repo GitHub pour que le code soit parfaitement reproductible par un recruteur technique !
-
 <FollowUp label="Tu veux que je t'aide à rédiger le fichier 'requirements.txt' correspondant à tes imports ?" query="Peux-tu me générer le contenu type du fichier requirements.txt pour ce projet d'analyse de survie METABRIC ?"/>
