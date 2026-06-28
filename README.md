@@ -4,12 +4,12 @@
 [![Scikit-Survival](https://img.shields.io/badge/Library-Scikit--Survival-orange.svg)](https://scikit-survival.readthedocs.io/)
 [![Medical Data](https://img.shields.io/badge/Domain-Oncology%20/%20Healthcare-red.svg)](https://www.kaggle.com/datasets/balgopal/breast-cancer-metabric)
 
-## 🎯 Objectif du Projet
+## Objectif du Projet
 Ce projet implémente un pipeline complet d'**analyse de survie** (Survival Analysis) basé sur le dataset clinique et moléculaire **METABRIC**. L'objectif est de prédire le risque de mortalité des patientes atteintes d'un cancer du sein et de les **stratifier en groupes de risque distincts** afin d'aider à la personnalisation des parcours de soins.
 
 ---
 
-## 🚀 Fonctionnalités Clés & Pipeline
+## Fonctionnalités Clés & Pipeline
 
 ### 1. Préparation & Nettoyage Clinique (EDA avancé)
 *   **Imputation MICE (IterativeImputer) :** Gestion robuste des données manquantes pour les variables numériques.
@@ -33,7 +33,7 @@ Entraînement et optimisation par validation croisée (`GridSearchCV`) de 3 arch
 
 ---
 
-## 🛠️ Stack Technique
+## Stack Technique
 *   **Langage :** Python
 *   **Manipulation de données :** `pandas`, `numpy`
 *   **Machine Learning de Survie :** `scikit-survival`, `lifelines`
@@ -41,7 +41,7 @@ Entraînement et optimisation par validation croisée (`GridSearchCV`) de 3 arch
 
 ---
 
-## 📈 Structure des Résultats attendus
+## Structure des Résultats attendus
 
 Le pipeline génère automatiquement les livrables suivants :
 1.  **Comparatif des C-index** entre Cox, RSF et Gradient Boosting.
@@ -50,7 +50,7 @@ Le pipeline génère automatiquement les livrables suivants :
 
 ---
 
-## 💻 Comment lancer le projet
+## Comment lancer le projet
 
 1. **Cloner le projet**
 ```bash
@@ -67,4 +67,8 @@ jupyter notebook breast_predict.ipynb
 ```
 ---
 
-<FollowUp label="Tu veux que je t'aide à rédiger le fichier 'requirements.txt' correspondant à tes imports ?" query="Peux-tu me générer le contenu type du fichier requirements.txt pour ce projet d'analyse de survie METABRIC ?"/>
+## ✍️ Informations Projet
+
+- **Auteur** : Goudjou Borel (Bore237)
+- **Date de réalisation** : Dec 2025
+- **Licence** : MIT
